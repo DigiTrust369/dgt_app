@@ -1,0 +1,15 @@
+{
+	"Metadata": {
+		"title": "",
+		"description": ""
+	},
+	"Commons": {
+		"Header": {
+			"connect-wallet": "Kết nối Ví"
+		}
+	},
+	"NotFoundPage": {
+		"title": "Không tìm thấy trang",
+		"text": "Trang này không tồn tại"
+	}
+}

@@ -1,0 +1,37 @@
+.root {
+  cursor: pointer;
+  display: inline-flex;
+  border-bottom: 2px solid transparent;
+  justify-content: center;
+  transition: all 0.25s ease;
+  &:not(:first-child) {
+    margin-left: 8px;
+  }
+
+  &.border {
+    border-bottom: 2px solid transparent;
+  }
+
+  &:not(.disabled).activated {
+    color: rgb(232, 67, 196);
+    font-weight: 500;
+    border-bottom: 2px solid rgb(232, 67, 196);
+  }
+
+  &:not(.disabled):hover {
+    color: rgb(232, 67, 196);
+    font-weight: 500;
+    border-bottom: 2px solid rgb(232, 67, 196);
+  }
+
+  &.disabled {
+    cursor: unset;
+    pointer-events: none;
+    color: grey;
+    border-bottom: 2px solid transparent;
+  }
+
+  &.full-width {
+    flex: auto;
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"Metadata": {
+		"title": "",
+		"description": ""
+	},
+	"Commons": {
+		"Header": {
+			"connect-wallet": "Connect Wallet"
+		}
+	},
+	"NotFoundPage": {
+		"title": "Page not found",
+		"text": "Sorry, the page you are looking for could not be found"
+	}
+}

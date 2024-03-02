@@ -1,0 +1,19 @@
+.period-tabs {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  display: flex;
+  max-width: 100%;
+  background: rgba(123, 123, 123, 0.1);
+
+  :global(.tab-item) {
+    padding: 4px 6px 0;
+    border-color: transparent;
+    &:hover {
+      border-color: transparent;
+    }
+  }
+  :global(.activated) {
+    background-color: rgb(232, 67, 196);
+    color: #fff !important;
+  }
+}
